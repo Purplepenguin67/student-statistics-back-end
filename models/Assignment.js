@@ -6,9 +6,6 @@ const assignmentSchema = new Schema(
       type: Schema.Types.ObjectId,
       default: () => new Types.ObjectId(),
     },
-
-    
-
     assignmentName: {
       type: String,
       required: true,
